@@ -2,7 +2,7 @@
 
 const sqlite = require('sqlite3').verbose();
 
-const DBSOURCE = './db/exams.db';
+const DBSOURCE = './db/kanban.db';
 
 const db = new sqlite.Database(DBSOURCE, (err) => {
     if (err) {
